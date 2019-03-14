@@ -1,0 +1,50 @@
+CJV805 Assignment 1 ¨C Winter 2019 Assignment Submission Form 
+========================================================================== 
+I/we declare that the attached assignment is my/our own work in accordance 
+with Seneca Academic Policy. No part of this assignment has been copied 
+manually or electronically from any other source (including web sites) or 
+distributed to other students.
+
+Name(s) 						Student ID(s)
+Pei Zhang						106052186
+--------------------------------------------------------------------------
+
+Brief Description of the Assignment Project
+==========================================================================
+
+1. Packages and files
+
+ca.myseneca.model					
+---------------------------							
+DAManager.java
+Employee.java
+JDBCUtilities.java
+
+
+Pca.myseneca.rmi.client	
+---------------------------							
+HRManagermentClient.java
+
+
+ca.myseneca.rmi.server	
+---------------------------
+DataAccess.java
+DataAccessInterface.java
+HRManagementServer.java
+
+
+ca.myseneca.test
+---------------------------								
+HRManagement.java
+
+
+2. Notes:
+	1)	In order to start the assignment early, self studied package, 
+		function, stored procedure,  MVC pattern and JDBC
+	2)	Regarding RMI implementation, created a interface and an 
+		implementation class in server package as the code in model package
+		must not be changed according to the assignment requirement. ( If the 
+		code could be changed, DAManager can be the implementation class after
+		removing the static modifier of each mothod in DAManager)
+	3)	When adding an employee, users do not need to enter the employee_id as
+		it is generated automatically by the DBMS
