@@ -12,7 +12,7 @@ Pei Zhang						106052186
 Brief Description of the Assignment Project
 ==========================================================================
 
-1. Packages and files
+1. Packages and files 
 
 ca.myseneca.model					
 ---------------------------							
